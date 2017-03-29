@@ -76,7 +76,6 @@ const config = {
       {
         test: /\.(png|svg|jpg|jpeg|gif)$/,
         loader: 'url-loader?name=img/[name].[ext]',
-        exclude: /node_modules/,
         query: {
           limit: 10000,
           emitFile: true,

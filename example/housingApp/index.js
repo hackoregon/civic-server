@@ -10,7 +10,7 @@ const App = () => (
     <div>
       <ul>
         <li><Link to="/civic/collection/housing/about">About Team</Link></li>
-        <li><Link to="/civic/collection/emergency/story/1">Emergency Story 1</Link></li>
+        <li><a href="/civic/collection/emergency/story/1">Emergency Story 1</a></li>
         <li><Link to="/civic/collection/emergency/story/2">Emergency Story 2</Link></li>
         <li><Link to="/civic/collection/housing/story/A">Housing Story A</Link></li>
         <li><Link to="/civic/collection/housing/story/B">Housing Story B</Link></li>
