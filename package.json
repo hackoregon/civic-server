@@ -3,6 +3,12 @@
   "version": "0.0.1",
   "description": "Server for Civic",
   "main": "index.js",
+  "author": "David Daniel <davidedaniel@gmail.com> (http://davidedaniel.github.io)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hackoregon/civic-server"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npm run clean && npm run build:server",
@@ -18,8 +24,6 @@
     "pre:go": "npm run clean",
     "go": "run-s build build:civic webpack:civic start:ex"
   },
-  "author": "David Daniel <davidedaniel@gmail.com> (http://davidedaniel.github.io)",
-  "license": "ISC",
   "dependencies": {
     "@hackoregon/component-library": "^0.0.6",
     "app-root-dir": "^1.0.2",
