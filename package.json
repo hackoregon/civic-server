@@ -1,5 +1,5 @@
 {
-  "name": "civic-server",
+  "name": "@hackoregon/civic-server",
   "version": "0.0.1",
   "description": "Server for Civic",
   "main": "index.js",
@@ -21,7 +21,7 @@
   "author": "David Daniel <davidedaniel@gmail.com> (http://davidedaniel.github.io)",
   "license": "ISC",
   "dependencies": {
-    "@hackoregon/component-library": "^0.0.3",
+    "@hackoregon/component-library": "^0.0.6",
     "app-root-dir": "^1.0.2",
     "assets-webpack-plugin": "^3.5.1",
     "autoprefixer": "^6.7.5",
@@ -38,6 +38,7 @@
     "babel-preset-stage-1": "^6.22.0",
     "babel-register": "^6.23.0",
     "bunyan": "^1.8.5",
+    "compression": "^1.6.2",
     "css-loader": "^0.25.0",
     "css-to-string-loader": "^0.1.2",
     "eslint": "^3.15.0",
