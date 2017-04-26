@@ -11,6 +11,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "bump": "bump --prompt --commit --push",
+    "postbump": "editme -w",
     "build": "npm run clean && npm run build:server",
     "build:server": "babel src --out-dir lib --copy-files",
     "build:civic": "babel example --out-dir build --copy-files",
