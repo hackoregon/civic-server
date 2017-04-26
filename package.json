@@ -1,6 +1,6 @@
 {
   "name": "@hackoregon/civic-server",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Server for Civic",
   "main": "index.js",
   "author": "David Daniel <davidedaniel@gmail.com> (http://davidedaniel.github.io)",
@@ -80,6 +80,7 @@
     "source-map-support": "^0.4.11",
     "style-loader": "^0.13.2",
     "url-loader": "^0.5.8",
+    "version-bump-prompt": "^3.1.0",
     "webpack": "2.1.0-beta.22"
   }
 }
