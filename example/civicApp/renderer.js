@@ -22,6 +22,7 @@ function htmlShell(serializedStore, innerHtml, { vendor, app }) {
     <!doctype html>
     <html>
       <head>${headInnerHtml}</head>
+      <link rel="stylesheet" href="${app.css}" />
       <body>
         <div id="react-root">
           <div>${innerHtml}</div>
@@ -33,7 +34,7 @@ function htmlShell(serializedStore, innerHtml, { vendor, app }) {
 }
 
 export default function reactRenderer(req, { Provider, App }, serializedStore, renderToString) {
-  return checkForClient(path.resolve('./build', 'civic-assets.json'))
+  return checkForClient(path.resolve('./build', 'webpack-assets.json'))
     .then((assets) => {
       try {
         const innerHtml = renderToString(
