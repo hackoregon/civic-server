@@ -27,7 +27,7 @@
     "go": "run-s build build:civic webpack:civic start:ex"
   },
   "dependencies": {
-    "@hackoregon/component-library": "0.2.2",
+    "@hackoregon/component-library": "^0.2.3",
     "@hackoregon/webpacker": "^0.1.7",
     "app-root-dir": "^1.0.2",
     "assets-webpack-plugin": "^3.5.1",
