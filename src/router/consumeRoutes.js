@@ -7,6 +7,9 @@ export default function consumeRoutes({ childRoutes, component, components, ...p
             getState: store.getState,
             dispatch: store.dispatch,
             injectReducer: store.injectReducer,
+            replaceReducer: store.replaceReducer,
+            subscribe: store.subscribe,
+            asyncReducers: store.asyncReducers || {},
           });
         }
         return routeBundle;
