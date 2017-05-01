@@ -6,10 +6,7 @@ export default function consumeRoutes({ childRoutes, component, components, ...p
           return routeBundle({
             getState: store.getState,
             dispatch: store.dispatch,
-            subscribe: store.subscribe,
-            asyncReducers: store.asyncReducers || {},
             injectReducer: store.injectReducer,
-            replaceReducer: store.replaceReducer,
           });
         }
         return routeBundle;
