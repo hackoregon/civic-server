@@ -1,6 +1,6 @@
 {
   "name": "@hackoregon/civic-server",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Server for Civic",
   "main": "index.js",
   "author": "David Daniel <davidedaniel@gmail.com> (http://davidedaniel.github.io)",
