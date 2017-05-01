@@ -1,6 +1,6 @@
 
 A server lib for server side rendering with examples of Civic App running 2 additional client side apps
-###### v 0.0.9
+###### v 0.0.10
 ---
 
 ##### Pre-requisites
